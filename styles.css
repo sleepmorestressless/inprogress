@@ -1,0 +1,59 @@
+html {
+    background: #f7f7f7;}
+
+body {
+    background: white;
+    font-family: 'Quicksand', "Montserrat", sans-serif;
+    max-width: 1310px;
+    margin: 0 auto;
+
+}
+header, footer {
+    background: #333a40;
+    color: white;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+    line-height: 35px;
+}
+header li {
+    display: inline;
+}
+header h1, nav {
+    display: inline-block;
+}
+
+main {
+    width: 890px;
+    display: inline-block;
+    padding: 10px;
+}
+
+aside {
+    width: 353px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+.product {
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 4px;
+    width: 280px;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+}
+img {
+max-width: 100%;
+border-radius: 3px;
+}
+.button {
+    padding: 10px;
+    display: inline-block;
+}
+
